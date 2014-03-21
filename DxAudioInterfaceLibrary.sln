@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DxAudioInterfaceLibrary", "DxAudioInterfaceLibrary\DxAudioInterfaceLibrary.vcxproj", "{2611CA89-F115-46D5-97DE-DA6E8390433E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DxAudioInterfaceStatic", "DxAudioInterfaceStatic\DxAudioInterfaceStatic.vcxproj", "{A74F4428-9135-4907-89FF-53CEF88E7637}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DxAudioInterfaceDLL", "DxAudioInterfaceDLL\DxAudioInterfaceDLL.vcxproj", "{AC7DD0A1-E53B-43AF-922C-E8ECB02523A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticLibConsoleTest", "StaticLibConsoleTest\StaticLibConsoleTest.vcxproj", "{D3A6C31C-305F-4941-9F11-188B7862EDB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicLibConsoleTest", "DynamicLibConsoleTest\DynamicLibConsoleTest.vcxproj", "{C5097297-9FC0-417D-A264-C7EBEECC511E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC7DD0A1-E53B-43AF-922C-E8ECB02523A3} = {AC7DD0A1-E53B-43AF-922C-E8ECB02523A3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2611CA89-F115-46D5-97DE-DA6E8390433E}.Debug|Win32.ActiveCfg = Release|Win32
+		{2611CA89-F115-46D5-97DE-DA6E8390433E}.Debug|Win32.Build.0 = Release|Win32
+		{2611CA89-F115-46D5-97DE-DA6E8390433E}.Release|Win32.ActiveCfg = Release|Win32
+		{2611CA89-F115-46D5-97DE-DA6E8390433E}.Release|Win32.Build.0 = Release|Win32
+		{A74F4428-9135-4907-89FF-53CEF88E7637}.Debug|Win32.ActiveCfg = Release|Win32
+		{A74F4428-9135-4907-89FF-53CEF88E7637}.Debug|Win32.Build.0 = Release|Win32
+		{A74F4428-9135-4907-89FF-53CEF88E7637}.Release|Win32.ActiveCfg = Release|Win32
+		{A74F4428-9135-4907-89FF-53CEF88E7637}.Release|Win32.Build.0 = Release|Win32
+		{AC7DD0A1-E53B-43AF-922C-E8ECB02523A3}.Debug|Win32.ActiveCfg = Release|Win32
+		{AC7DD0A1-E53B-43AF-922C-E8ECB02523A3}.Debug|Win32.Build.0 = Release|Win32
+		{AC7DD0A1-E53B-43AF-922C-E8ECB02523A3}.Release|Win32.ActiveCfg = Release|Win32
+		{AC7DD0A1-E53B-43AF-922C-E8ECB02523A3}.Release|Win32.Build.0 = Release|Win32
+		{D3A6C31C-305F-4941-9F11-188B7862EDB8}.Debug|Win32.ActiveCfg = Release|Win32
+		{D3A6C31C-305F-4941-9F11-188B7862EDB8}.Debug|Win32.Build.0 = Release|Win32
+		{D3A6C31C-305F-4941-9F11-188B7862EDB8}.Release|Win32.ActiveCfg = Release|Win32
+		{D3A6C31C-305F-4941-9F11-188B7862EDB8}.Release|Win32.Build.0 = Release|Win32
+		{C5097297-9FC0-417D-A264-C7EBEECC511E}.Debug|Win32.ActiveCfg = Release|Win32
+		{C5097297-9FC0-417D-A264-C7EBEECC511E}.Debug|Win32.Build.0 = Release|Win32
+		{C5097297-9FC0-417D-A264-C7EBEECC511E}.Release|Win32.ActiveCfg = Release|Win32
+		{C5097297-9FC0-417D-A264-C7EBEECC511E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
