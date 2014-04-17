@@ -1,4 +1,5 @@
 The history of the development of this library can be found in the following links, listed from newest to oldest:
+
 http://phifel.wordpress.com/2013/06/25/so-thats-what-happens-when-the-language-gets-old/
 
 http://phifel.wordpress.com/2013/06/07/final-cleanup-on-the-proof-of-concept/
